@@ -182,5 +182,3 @@
 <!-- / IE9 Placeholder Support -->
 </body>
 </html>
-
-
