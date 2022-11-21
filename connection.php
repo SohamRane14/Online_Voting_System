@@ -1,6 +1,6 @@
 <?php
 error_reporting(1);
-$db= mysqli_connect('localhost', 'root','') or die(mysqli_error($db));
+$db= mysql_connect("localhost", "root","", "poll","3307") or die(mysqli_error($db));
 $con=$db;
-mysqli_select_db($db, 'poll') or die(mysqli_error($db));
+mysql_select_db($db, "poll") or die(mysqli_error($db));
 ?>
